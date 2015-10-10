@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -19,4 +23,79 @@ img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+}
+
+.top {
+  position: fixed;
+  top:0;
+  width:100%;
+  background-color: white;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.5em
+}
+
+.tagline-container {
+  position: fixed;
+  top:50%;
+  left:10%;
+/*  border-top: black;
+  border-bottom: black;
+  border-style: groove;*/
+}
+
+.tagline {
+  font-size: 3em
+}
+
+.place {
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+/* Custom Classes */
+
+/* Random */
+
+.top-random {
+  font-family: 'Helvetica Neue';
+  color: gray;
+  background: -webkit-linear-gradient(to right, rgba(190, 190, 190, 0) , rgb(253, 246, 246), rgba(190, 190, 190, 0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgba(190, 190, 190, 0) , rgb(253, 246, 246), rgba(190, 190, 190, 0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgba(190, 190, 190, 0) , rgb(253, 246, 246), rgba(190, 190, 190, 0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(190, 190, 190, 0) , rgb(253, 246, 246), rgba(190, 190, 190, 0))
+}
+
+.name-random {
+  width: 40%;
+  margin: auto;
+  border: 2px dashed black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.tagline-container-random {
+  background-color: #43769C;
+  padding: 10px;
+  opacity: .6;
+  border-radius: .2px;
+}
+
+.tagline-random {
+  font-family: 'Helvetica Neue';
+  color:white;
+/*  font-weight: 100;
+*/}
+
+.place-random {
+  font-family: 'Helvetica Neue';
+  color: white;
+  font-weight: 100;
 }

@@ -1,3 +1,12 @@
-<h1>welcome to <%= @store.name %></h1>
-<h2><%= @store.tagline %></h2>
-<img class='bg' src=<%= @store.image%>>
+<div class='top top-<%= @store.class%>'>
+  <div class='name name-<%= @store.class%>'>
+    <h1><%= @store.name %></h1>
+  </div>
+</div>
+<div class='tagline-container tagline-container-<%= @store.class%>'>
+  <h2 class='tagline tagline-<%= @store.class%>'><%= @store.tagline %></h2>
+  <h3 class='place place-<%= @store.class%>'><%= @store.place %><h3>
+</div>
+
+
+<img class='bg bg-<%= @store.class%>' src=<%= @store.image%>>
